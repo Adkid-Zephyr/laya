@@ -27,6 +27,8 @@ jobs:
           python-version: "3.11"
       - run: python research/benchmarks/feishu_zh/audit.py
       - run: python -m unittest discover -s research/benchmarks/feishu_zh/tests -v
+      - run: python research/benchmarks/chinese_intent_adaptation/audit.py
+      - run: python -m unittest discover -s research/benchmarks/chinese_intent_adaptation -p 'test_*.py'
 
   test:
     name: tests (py${{ matrix.python }})

@@ -5,6 +5,8 @@ the numbers quoted in the main README — nothing here is imported by the `laya`
 
 ## Community diagnostics
 
+- [Chinese intent post-training study](benchmarks/chinese_intent_adaptation/README.md) — three-seed adaptation results, original-label prediction records, offline auditing, and explicit relevance/Feishu regressions. [中文报告](benchmarks/chinese_intent_adaptation/README.zh-CN.md).
+
 - [Chinese workplace decisions (Feishu-style)](benchmarks/feishu_zh/README.md) — 64 synthetic scenarios, paired recorded Laya/Jev responses, English/Chinese cards, and a model-free audit. [中文入口](benchmarks/feishu_zh/README.zh-CN.md). Start with `python research/benchmarks/feishu_zh/audit.py`; no downloads or API keys required. This is a contributed historical snapshot, separate from the upstream sweeps below.
 
 ## Scripts
